@@ -1,0 +1,16 @@
+Backlog User Story,AMS Team to provide details,Impacted Applications,Effort Sizing,Deliverable,Application SPOC,SRE Team
+Create synthetic monitors for critical login pages,List of applications and URLs with login pages,"Member Portal, Employer Portal, Billing App",M,Synthetic HTTP/Browser monitors created and validated for login flows,Jaouad,Vadiraj/Urvish
+Develop synthetic tests for payment and billing workflows,User journey steps and expected responses,"Billing App, Payment Gateway",M,Clickpath tests set up with full transaction flow monitoring,Jaouad,Vadiraj/Urvish
+Expand synthetic coverage for top 5 user journeys,Prioritized list of journeys and associated URLs,"Member Portal, Benefits App",M,Comprehensive synthetic monitor coverage with dashboards,Jaouad,Vadiraj/Urvish
+Configure alerting profiles for synthetic failures,"Alert routing contacts, severity matrix",All critical services,M,Alerting profiles mapped to business owners in Dynatrace,Jaouad,Vadiraj/Urvish
+Fix failing synthetic tests due to outdated selectors,Screenshots and new DOM structures post-deployment,"Member Portal, Pharmacy App",M,Synthetic tests updated and validated post-DOM change,Jaouad,Vadiraj/Urvish
+Adjust thresholds to reduce false positive alerts,"Sample alert logs, business tolerance values",Pharmacy Portal,M,Refined threshold configurations in alert rules,Jaouad,Vadiraj/Urvish
+"Set up synthetic monitoring for unmonitored APIs (e.g., /getemployermegamenudetails.json)",API specs and status codes,Employer Portal,M,HTTP monitors configured with response validation,Jaouad,Vadiraj/Urvish
+Create synthetic monitors for pre-prod shakeout environments,Pre-prod URLs and test scenarios,"Member Portal, Claims",M,Pre-prod synthetic tests configured to validate deployments,Jaouad,Vadiraj/Urvish
+Provide access to app teams to maintain synthetic tests,List of SPOCs needing access,All apps with synthetic tests,S,Access assigned with appropriate Dynatrace permissions,Jaouad,Vadiraj/Urvish
+Review existing synthetic test coverage and identify gaps,App inventory vs current test list,All,M,Coverage gap report with remediation backlog,Jaouad,Vadiraj/Urvish
+Create centralized dashboard for synthetic test health,Widget preferences and stakeholders,Leadership Dashboard,M,Dashboards shared with real-time test results and alerts,Jaouad,Vadiraj/Urvish
+Integrate synthetic failures with ServiceNow,ServiceNow API details and routing rules,All critical apps,M,Automatic ticketing configured via Dynatrace integrations,Jaouad,Vadiraj/Urvish
+Create fallback tests for critical APIs with historical failure,List of unstable APIs,"Eligibility Service, Claims API",M,Backup synthetic monitors configured with simplified checks,Jaouad,Vadiraj/Urvish
+Analyze long-running synthetic tests and optimize steps,Synthetic test run durations,Member Portal,M,Optimized scripts to reduce execution time without losing accuracy,Jaouad,Vadiraj/Urvish
+Enable geo-location-based synthetic tests for priority apps,Target user regions and test points,"Public Website, Login APIs",M,Geo-distributed tests set up from different Dynatrace locations,Jaouad,Vadiraj/Urvish
